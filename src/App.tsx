@@ -31,7 +31,7 @@ const games = [
     id: 2,
     title: "Darvemy",
     category: "acción",
-    image: './assets/images/darvemy.jpg',
+    image: 'https://raw.githubusercontent.com/ErickRamirezO/game_store/refs/heads/main/src/assets/images/darvemy.JPG',
     rating: 4.5,
     downloads: "9.8M",
     featured: true,
