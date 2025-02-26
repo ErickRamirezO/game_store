@@ -19,132 +19,132 @@ import {
 const games = [
   {
     id: 1,
-    title: "Epic Adventure",
-    category: "adventure",
+    title: "Aventura Épica",
+    category: "aventura",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.8,
     downloads: "2.5M",
     featured: true,
-    description: "Embark on an epic journey through mystical lands and battle fearsome creatures."
+    description: "Embárcate en un viaje épico a través de tierras místicas y lucha contra criaturas temibles."
   },
   {
     id: 2,
-    title: "Space Explorers",
-    category: "action",
+    title: "Darvemy",
+    category: "acción",
     image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.5,
-    downloads: "1.8M",
+    downloads: "9.8M",
     featured: true,
-    description: "Explore the vast universe and defend your galaxy against alien invasions."
+    description: "Embárcate en una emocionante aventura en primera persona, donde la acción, el sigilo y la resolución de acertijos se fusionan en una lucha contra el tiempo"
   },
   {
     id: 3,
-    title: "Racing Champions",
-    category: "racing",
+    title: "Campeones de Carreras",
+    category: "carreras",
     image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.7,
     downloads: "3.2M",
     featured: true,
-    description: "Race against the best drivers in the world on stunning tracks."
+    description: "Compite contra los mejores pilotos del mundo en impresionantes circuitos."
   },
   {
     id: 4,
-    title: "Puzzle Master",
+    title: "Maestro del Puzzle",
     category: "puzzle",
     image: "https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.3,
     downloads: "1.2M",
     featured: true,
-    description: "Challenge your mind with intricate puzzles and brain teasers."
+    description: "Desafía tu mente con intrincados rompecabezas y acertijos."
   },
   {
     id: 5,
-    title: "Fantasy Kingdom",
+    title: "Reino de Fantasía",
     category: "rpg",
-    image: "https://images.unsplash.com/photo-1531053270060-6643c9e70514?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHayJzMEeibW8DgsVU99d_YxNdPEnI5rTC7g&s",
     rating: 4.9,
     downloads: "5.1M",
     featured: true,
-    description: "Build your kingdom, train your army, and conquer the fantasy world."
+    description: "Construye tu reino, entrena tu ejército y conquista el mundo de fantasía."
   },
   {
     id: 6,
-    title: "Zombie Survival",
-    category: "action",
+    title: "Supervivencia Zombie",
+    category: "acción",
     image: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.6,
     downloads: "2.8M",
     featured: false,
-    description: "Survive in a post-apocalyptic world filled with zombies and danger."
+    description: "Sobrevive en un mundo post-apocalíptico lleno de zombis y peligros."
   },
   {
     id: 7,
-    title: "City Builder",
-    category: "simulation",
+    title: "Constructor de Ciudades",
+    category: "simulación",
     image: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.4,
     downloads: "1.5M",
     featured: false,
-    description: "Design, build and manage your dream city from the ground up."
+    description: "Diseña, construye y gestiona la ciudad de tus sueños desde cero."
   },
   {
     id: 8,
-    title: "Sports Legend",
-    category: "sports",
+    title: "Leyenda Deportiva",
+    category: "deportes",
     image: "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.7,
     downloads: "3.0M",
     featured: false,
-    description: "Become a sports legend by competing in various athletic challenges."
+    description: "Conviértete en una leyenda del deporte compitiendo en varios desafíos atléticos."
   },
   {
     id: 9,
-    title: "Cooking Master",
-    category: "simulation",
-    image: "https://images.unsplash.com/photo-1556911220-bda9f7f7597e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Maestro de la Cocina",
+    category: "simulación",
+    image: "https://play-lh.googleusercontent.com/hoGqPx3t4H1pZTzOKJZ9lYw0TPox29WDvq5qOXwXtMiSQtP4kZcJkamG_xbfz_Us0w=w526-h296-rw",
     rating: 4.2,
     downloads: "900K",
     featured: false,
-    description: "Cook delicious virtual meals and become the ultimate chef."
+    description: "Cocina deliciosas comidas virtuales y conviértete en el chef definitivo."
   },
   {
     id: 10,
-    title: "Medieval Conquest",
-    category: "strategy",
+    title: "Conquista Medieval",
+    category: "estrategia",
     image: "https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.8,
     downloads: "2.2M",
     featured: false,
-    description: "Lead your army to victory in epic medieval battles."
+    description: "Lidera tu ejército hacia la victoria en épicas batallas medievales."
   },
   {
     id: 11,
-    title: "Ocean Explorer",
-    category: "adventure",
+    title: "Explorador Oceánico",
+    category: "aventura",
     image: "https://images.unsplash.com/photo-1582967788606-a171c1080cb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.5,
     downloads: "1.7M",
     featured: false,
-    description: "Dive into the depths of the ocean and discover hidden treasures."
+    description: "Sumérgete en las profundidades del océano y descubre tesoros ocultos."
   },
   {
     id: 12,
-    title: "Ninja Warrior",
-    category: "action",
+    title: "Guerrero Ninja",
+    category: "acción",
     image: "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     rating: 4.6,
     downloads: "2.1M",
     featured: false,
-    description: "Master the art of stealth and combat as an elite ninja warrior."
+    description: "Domina el arte del sigilo y el combate como un ninja de élite."
   }
 ];
 
 // Categories with icons
 const categories = [
-  { name: "All Games", icon: <GamepadIcon size={20} /> },
-  { name: "Action", icon: <Zap size={20} /> },
-  { name: "Adventure", icon: <Sword size={20} /> },
-  { name: "Racing", icon: <Car size={20} /> },
+  { name: "Todos los juegos", icon: <GamepadIcon size={20} /> },
+  { name: "Acción", icon: <Zap size={20} /> },
+  { name: "Aventura", icon: <Sword size={20} /> },
+  { name: "Carreras", icon: <Car size={20} /> },
   { name: "Puzzle", icon: <Brain size={20} /> },
   { name: "RPG", icon: <Heart size={20} /> }
 ];
@@ -164,7 +164,7 @@ function App() {
     setCurrentSlide((prev) => (prev === 0 ? featuredGames.length - 1 : prev - 1));
   };
   
-  const filteredGames = selectedCategory === "All Games" 
+  const filteredGames = selectedCategory === "Todos los juegos" 
     ? games 
     : games.filter(game => game.category.toLowerCase() === selectedCategory.toLowerCase());
 
@@ -208,7 +208,7 @@ function App() {
             <div className="relative">
               <input 
                 type="text" 
-                placeholder="Search games..." 
+                placeholder="Buscar juegos..." 
                 className="bg-gray-700 rounded-full py-2 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <Search size={18} className="absolute left-3 top-2.5 text-gray-400" />
@@ -249,7 +249,7 @@ function App() {
                   </div>
                   <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition w-48 flex items-center justify-center">
                     <Download size={18} className="mr-2" />
-                    Download Now
+                    Descargar
                   </button>
                 </div>
               </div>
@@ -327,7 +327,7 @@ function App() {
                     {game.downloads}
                   </span>
                   <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1.5 px-3 rounded-full transition">
-                    Download
+                    Descargar
                   </button>
                 </div>
               </div>
@@ -345,26 +345,26 @@ function App() {
                 <GamepadIcon size={24} className="text-blue-500" />
                 <h2 className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">GameStore</h2>
               </div>
-              <p className="text-gray-400 max-w-md">Your one-stop destination for downloading the best games across all genres. Play, compete, and have fun!</p>
+              <p className="text-gray-400 max-w-md">Tu destino principal para descargar los mejores juegos de todos los géneros. ¡Juega, compite y diviértete!</p>
             </div>
             
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4">Company</h3>
+                <h3 className="text-lg font-semibold mb-4">Empresa</h3>
                 <ul className="space-y-2 text-gray-400">
-                  <li><a href="#" className="hover:text-blue-400 transition">About Us</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">Careers</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">News</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">Partners</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Sobre Nosotros</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Empleo</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Noticias</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Socios</a></li>
                 </ul>
               </div>
               
               <div>
-                <h3 className="text-lg font-semibold mb-4">Resources</h3>
+                <h3 className="text-lg font-semibold mb-4">Recursos</h3>
                 <ul className="space-y-2 text-gray-400">
-                  <li><a href="#" className="hover:text-blue-400 transition">Help Center</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">Community</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">Developers</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Centro de Ayuda</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Comunidad</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Desarrolladores</a></li>
                   <li><a href="#" className="hover:text-blue-400 transition">Blog</a></li>
                 </ul>
               </div>
@@ -372,17 +372,17 @@ function App() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Legal</h3>
                 <ul className="space-y-2 text-gray-400">
-                  <li><a href="#" className="hover:text-blue-400 transition">Privacy Policy</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">Terms of Service</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">Cookie Policy</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition">EULA</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Política de Privacidad</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Términos de Servicio</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">Política de Cookies</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition">CLUF</a></li>
                 </ul>
               </div>
             </div>
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2025 GameStore. All rights reserved.</p>
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2025 GameStore. Todos los derechos reservados.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
