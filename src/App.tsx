@@ -188,9 +188,9 @@ function App() {
               />
               <Search size={18} className="absolute left-3 top-2.5 text-gray-400" />
             </div>
-            <a href="#" className="hover:text-blue-400 transition">Home</a>
-            <a href="#" className="hover:text-blue-400 transition">Library</a>
-            <a href="#" className="hover:text-blue-400 transition">Account</a>
+            <a href="#" className="hover:text-blue-400 transition">Inicio</a>
+            <a href="#" className="hover:text-blue-400 transition">Libreria</a>
+            <a href="#" className="hover:text-blue-400 transition">Cuenta</a>
           </nav>
           
           {/* Mobile menu button */}
