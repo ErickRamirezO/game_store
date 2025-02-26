@@ -151,7 +151,7 @@ const categories = [
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [selectedCategory, setSelectedCategory] = useState("All Games");
+  const [selectedCategory, setSelectedCategory] = useState("Todos los juegos");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   const featuredGames = games.filter(game => game.featured);
