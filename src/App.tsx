@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import darvemyImage from './assets/images/darvemy.jpg';
 import { 
   ChevronLeft, 
   ChevronRight, 
@@ -32,7 +31,7 @@ const games = [
     id: 2,
     title: "Darvemy",
     category: "acción",
-    image: darvemyImage,
+    image: './assets/images/darvemy.jpg',
     rating: 4.5,
     downloads: "9.8M",
     featured: true,
