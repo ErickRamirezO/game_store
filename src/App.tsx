@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import darvemyImage from './img/darvemy.jpg';
+import darvemyImage from './assets/images/darvemy.jpg';
 import { 
   ChevronLeft, 
   ChevronRight, 
