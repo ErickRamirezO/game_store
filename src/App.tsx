@@ -36,7 +36,7 @@ const games = [
     downloads: "9.8M",
     featured: true,
     description: "Embárcate en una emocionante aventura en primera persona, donde la acción, el sigilo y la resolución de acertijos se fusionan en una lucha contra el tiempo",
-    downloadLink: 'https://uespe-my.sharepoint.com/personal/jmmorales11_espe_edu_ec/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjmmorales11%5Fespe%5Fedu%5Fec%2FDocuments%2Fvideojuegos%2Fjueguitov5%2Eexe&parent=%2Fpersonal%2Fjmmorales11%5Fespe%5Fedu%5Fec%2FDocuments%2Fvideojuegos&ga=1' // Agrega la ruta de descarga aquí
+    downloadLink: 'https://uespe-my.sharepoint.com/:f:/g/personal/jmmorales11_espe_edu_ec/EuoGVsW97OVApTf3ZD_in0oBoOdC8Uv006wqsFYiAU3F4w?e=TSRwb0' // Agrega la ruta de descarga aquí
   
   }
   ,
