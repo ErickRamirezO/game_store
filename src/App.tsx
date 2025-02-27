@@ -35,8 +35,11 @@ const games = [
     rating: 4.5,
     downloads: "9.8M",
     featured: true,
-    description: "Embárcate en una emocionante aventura en primera persona, donde la acción, el sigilo y la resolución de acertijos se fusionan en una lucha contra el tiempo"
-  },
+    description: "Embárcate en una emocionante aventura en primera persona, donde la acción, el sigilo y la resolución de acertijos se fusionan en una lucha contra el tiempo",
+    downloadLink: 'https://uespe-my.sharepoint.com/personal/jmmorales11_espe_edu_ec/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjmmorales11%5Fespe%5Fedu%5Fec%2FDocuments%2Fvideojuegos%2Fjueguitov5%2Eexe&parent=%2Fpersonal%2Fjmmorales11%5Fespe%5Fedu%5Fec%2FDocuments%2Fvideojuegos&ga=1' // Agrega la ruta de descarga aquí
+  
+  }
+  ,
   {
     id: 3,
     title: "Campeones de Carreras",
@@ -247,10 +250,19 @@ function App() {
                       <span>{game.downloads}</span>
                     </div>
                   </div>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition w-48 flex items-center justify-center">
-                    <Download size={18} className="mr-2" />
-                    Descargar
-                  </button>
+                  {game.downloadLink ? (
+                    <a 
+                      href={game.downloadLink} 
+                      className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1.5 px-3 rounded-full transition"
+                      download
+                    >
+                      Descargar
+                    </a>
+                  ) : (
+                    <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1.5 px-3 rounded-full transition">
+                      Descargar
+                    </button>
+                  )}
                 </div>
               </div>
             ))}
@@ -326,9 +338,19 @@ function App() {
                     <Download size={14} className="mr-1 text-green-400" />
                     {game.downloads}
                   </span>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1.5 px-3 rounded-full transition">
-                    Descargar
-                  </button>
+                  {game.downloadLink ? (
+                    <a 
+                      href={game.downloadLink} 
+                      className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1.5 px-3 rounded-full transition"
+                      download
+                    >
+                      Descargar
+                    </a>
+                  ) : (
+                    <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1.5 px-3 rounded-full transition">
+                      Descargar
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
